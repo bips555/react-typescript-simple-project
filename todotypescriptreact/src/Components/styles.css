@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.input_box {
+.input__box {
   width: 100%;
   border-radius: 50px;
   padding: 20px 30px;
@@ -15,7 +15,7 @@
   box-shadow: inset 0 0 5px black;
 }
 
-.input_box:focus {
+.input__box:focus {
   box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5);
   outline: none;
 }
@@ -73,13 +73,13 @@
   background-color: rgb(235, 103, 80);
 }
 
-.todos_heading {
+.todos__heading {
   font-size: 30px;
   /* text-align: center; */
   color: white;
 }
 
-.todos_single {
+.todos__single {
   display: flex;
   border-radius: 5px;
   padding: 20px;
@@ -92,19 +92,19 @@
   box-shadow: 0 0 20px black;
 }
 
-.todos_single:hover {
+.todos__single:hover {
   box-shadow: 0 0 5px black;
   transform: scale(1.03);
 }
 
-.todos_single--text {
+.todos__single--text {
   flex: 1;
   padding: 5px;
   border: none;
   font-size: 20px;
 }
 
-.todos_single--text:focus {
+.todos__single--text:focus {
   outline: none;
 }
 
